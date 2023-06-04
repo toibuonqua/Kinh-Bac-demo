@@ -1,0 +1,19 @@
+
+.nav-text {
+    font-size: 2em;
+}
+
+.feature-nav:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.modal {
+    --bs-modal-margin: 10rem !important;
+}
+
+
+
