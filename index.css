@@ -1,6 +1,8 @@
-
+body {
+    font-family: "Inter";
+}
 .nav-text {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .feature-nav:hover {
@@ -15,5 +17,37 @@
     --bs-modal-margin: 10rem !important;
 }
 
+.name-right-side-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer .name-comp {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 
